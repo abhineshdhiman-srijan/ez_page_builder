@@ -35,7 +35,6 @@ install:
   - layout_builder_modal:layout_builder_modal
   - lb_direct_add:lb_direct_add
 
-simple_config_update:
   actions:
     system.theme:
       simple_config_update:
