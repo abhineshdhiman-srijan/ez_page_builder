@@ -4,6 +4,7 @@ recipes:
 
 install:
   - smart_trim
+  - metatag
   - ezcontent_paragraphs
   - ezcontent_block
   - block_content
