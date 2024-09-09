@@ -62,6 +62,7 @@
         "drupal/slick_paragraphs": "^2.2",
         "drupal/smart_trim": "^2.2",
         "drupal/social_media": "^2.0",
+        "drupal/stable":"^2.1",
         "drupal/video_embed_field": "^2.5",
         "drupal/viewsreference": "^2.0@beta",
         "drupal/webform": "^6.2@beta",

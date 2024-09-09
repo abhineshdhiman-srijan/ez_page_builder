@@ -32,11 +32,11 @@ install:
   - media_entity_instagram:media_entity_instagram
   - media_entity_twitter:media_entity_twitter
   - image_widget_crop:image_widget_crop
-  # - layout_builder_modal:layout_builder_modal
+  - layout_builder_modal:layout_builder_modal
   - lb_direct_add:lb_direct_add
 
-# simple_config_update:
-  # actions:
-  #   system.theme:
-  #     simple_config_update:
-  #       admin: 'ezcontent_admin'
+simple_config_update:
+  actions:
+    system.theme:
+      simple_config_update:
+        default: ezcontent_theme
