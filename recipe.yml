@@ -3,8 +3,10 @@ description: 'Provides Landing Page Builder with components.'
 recipes:
 
 install:
+  - smart_trim
   - ezcontent_paragraphs
   - ezcontent_block
+  - block_content
   - color_field:color_field
   - layout_builder_restrictions:layout_builder_restrictions
   - layout_library:layout_library
@@ -27,14 +29,11 @@ install:
   - media_entity_instagram:media_entity_instagram
   - media_entity_twitter:media_entity_twitter
   - image_widget_crop:image_widget_crop
-  - block_blacklist:block_blacklist
-  - ezcontent_node:ezcontent_node
-  - ezcontent_node:ezcontent_user
-  - layout_builder_modal:layout_builder_modal
+  # - layout_builder_modal:layout_builder_modal
   - lb_direct_add:lb_direct_add
 
-
-  actions:
-    system.theme:
-      simple_config_update:
-        admin: 'ezcontent_admin'
+# simple_config_update:
+  # actions:
+  #   system.theme:
+  #     simple_config_update:
+  #       admin: 'ezcontent_admin'
