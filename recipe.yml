@@ -5,6 +5,8 @@ recipes:
 install:
   - smart_trim
   - metatag
+  - ezcontent_node
+  - simple_gmap
   - ezcontent_paragraphs
   - ezcontent_block
   - block_content
