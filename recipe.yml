@@ -1,0 +1,40 @@
+name: EZContent Landing Page Builder Feature
+description: 'Provides Landing Page Builder with components.'
+recipes:
+
+install:
+  - ezcontent_paragraphs
+  - ezcontent_block
+  - color_field:color_field
+  - layout_builder_restrictions:layout_builder_restrictions
+  - layout_library:layout_library
+  - libraries:libraries
+  - colorbox:colorbox
+  - paragraphs_previewer:paragraphs_previewer
+  - slick_paragraphs:slick_paragraphs
+  - allowed_formats:allowed_formats
+  - paragraphs_jquery_ui_accordion:paragraphs_jquery_ui_accordion
+  - webform:webform
+  - slick:slick
+  - simple_gmap:simple_gmap
+  - viewsreference:viewsreference
+  - fvm:fvm
+  - dropzonejs:dropzonejs_eb_widget
+  - media_entity_browser:media_entity_browser
+  - video_embed_field:video_embed_media
+  - blazy:blazy
+  - media_entity_slideshow:media_entity_slideshow
+  - media_entity_instagram:media_entity_instagram
+  - media_entity_twitter:media_entity_twitter
+  - image_widget_crop:image_widget_crop
+  - block_blacklist:block_blacklist
+  - ezcontent_node:ezcontent_node
+  - ezcontent_node:ezcontent_user
+  - layout_builder_modal:layout_builder_modal
+  - lb_direct_add:lb_direct_add
+
+
+  actions:
+    system.theme:
+      simple_config_update:
+        admin: 'ezcontent_admin'
