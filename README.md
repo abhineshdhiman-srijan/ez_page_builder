@@ -46,7 +46,7 @@ ddev config --project-type=drupal9 --docroot=web --create-docroot
 
 ddev start
 
-ddev composer create "drupal/recommended-project"
+ddev composer create drupal/recommended-project:^10.1
 
 ddev composer config repositories.1 vcs <https://github.com/abhineshdhiman-srijan/ezcontent-block>
 
