@@ -22,6 +22,7 @@ composer config extra.enable-patching true
 composer config --no-plugins allow-plugins.cweagans/composer-patches true
 composer config --no-plugins allow-plugins.oomphinc/composer-installers-extender true
 composer require cweagans/composer-patches
+composer require drush/drush
 composer require drupal_recipe/ez_page_builder:dev-main
 ```
 #### ddev setup
@@ -40,6 +41,7 @@ ddev composer config extra.enable-patching true
 ddev composer config --no-plugins allow-plugins.cweagans/composer-patches true
 ddev composer config --no-plugins allow-plugins.oomphinc/composer-installers-extender true
 ddev composer require cweagans/composer-patches
+ddev composer require drush/drush
 ddev composer require drupal_recipe/ez_page_builder:dev-main
 ```
 ## Tech Stack
