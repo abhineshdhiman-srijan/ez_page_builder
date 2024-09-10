@@ -30,6 +30,8 @@ composer require drupal_recipe/ez_page_builder:dev-main
 ```bash
 composer create-project drupal/recommended-project:^10.0 MY_PROJECT
 cd MY_PROJECT;
+ddev config --project-type=drupal9 --docroot=web --create-docroot
+ddev start
 ddev composer config repositories.ezcontent-block vcs https://github.com/abhineshdhiman-srijan/ezcontent-block
 ddev composer config repositories.ezcontent-paragraphs vcs https://github.com/abhineshdhiman-srijan/ezcontent-paragraphs
 ddev composer config repositories.ezcontent-node vcs https://github.com/abhineshdhiman-srijan/ezcontent-node
