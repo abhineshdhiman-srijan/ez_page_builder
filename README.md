@@ -46,7 +46,9 @@ ddev composer config --no-plugins allow-plugins.oomphinc/composer-installers-ext
 ddev composer require cweagans/composer-patches
 ddev composer require drush/drush
 ddev composer require drupal_recipe/ez_page_builder:dev-main
- mv recipes/ web 
+mv recipes/ web
+ddev drush si
+ddev drush recipe recipes/ez_page_builder;     
 ```
 ## Tech Stack
 
