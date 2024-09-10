@@ -14,7 +14,7 @@ cd MY_PROJECT;
 composer config repositories.1 vcs https://github.com/abhineshdhiman-srijan/ezcontent-block
 composer config repositories.2 vcs https://github.com/abhineshdhiman-srijan/ezcontent-paragraphs
 composer config repositories.3 vcs https://github.com/abhineshdhiman-srijan/ezcontent-node
-composer config repositories.4 composer https://github.com/abhineshdhiman-srijan/ez_page_builder
+composer config repositories.4 vcs https://github.com/abhineshdhiman-srijan/ez_page_builder
 composer config repositories.5 composer https://gitlab.ewdev.ca/yonas.legesse/drupal-recipe-unpack.git
 composer config repositories.6 composer https://asset-packagist.org
 composer config minimum-stability dev
@@ -34,7 +34,7 @@ cd MY_PROJECT;
 composer config repositories.1 vcs https://github.com/abhineshdhiman-srijan/ezcontent-block
 composer config repositories.2 vcs https://github.com/abhineshdhiman-srijan/ezcontent-paragraphs
 composer config repositories.3 vcs https://github.com/abhineshdhiman-srijan/ezcontent-node
-composer config repositories.4 composer https://github.com/abhineshdhiman-srijan/ez_page_builder
+composer config repositories.4 vcs https://github.com/abhineshdhiman-srijan/ez_page_builder
 composer config repositories.5 composer https://gitlab.ewdev.ca/yonas.legesse/drupal-recipe-unpack.git
 composer config repositories.6 composer https://asset-packagist.org
 composer config minimum-stability dev
