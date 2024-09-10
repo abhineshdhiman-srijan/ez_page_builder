@@ -22,8 +22,6 @@ composer config extra.enable-patching true
 composer config --no-plugins allow-plugins.cweagans/composer-patches true
 composer config --no-plugins allow-plugins.oomphinc/composer-installers-extender true
 composer require cweagans/composer-patches
-composer require ewcomposer/unpack:dev-master
-composer config allow-plugins.ewcomposer/unpack true
 composer require drupal_recipe/ez_page_builder:dev-main
 ```
 #### ddev setup
@@ -37,14 +35,12 @@ ddev composer config repositories.ezcontent-node vcs https://github.com/abhinesh
 ddev composer config repositories.ez_page_builder vcs https://github.com/abhineshdhiman-srijan/ez_page_builder
 ddev composer config repositories.drupal8 composer https://packages.drupal.org/8
 ddev composer config repositories.asset-packagist composer https://asset-packagist.org
-composer config minimum-stability dev
-composer config extra.enable-patching true
-composer config --no-plugins allow-plugins.cweagans/composer-patches true
-composer config --no-plugins allow-plugins.oomphinc/composer-installers-extender true
-composer require cweagans/composer-patches
-composer require ewcomposer/unpack:dev-master
-composer config allow-plugins.ewcomposer/unpack true
-composer require drupal_recipe/ez_page_builder:dev-main
+ddev composer config minimum-stability dev
+ddev composer config extra.enable-patching true
+ddev composer config --no-plugins allow-plugins.cweagans/composer-patches true
+ddev composer config --no-plugins allow-plugins.oomphinc/composer-installers-extender true
+ddev composer require cweagans/composer-patches
+ddev composer require drupal_recipe/ez_page_builder:dev-main
 ```
 ## Tech Stack
 
