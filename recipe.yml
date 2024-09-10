@@ -3,7 +3,7 @@ description: 'Provides Landing Page Builder with components.'
 recipes:
 
 install:
-  - ezcontent_theme
+  # - ezcontent_theme
   - smart_trim
   - metatag
   - ezcontent_node
