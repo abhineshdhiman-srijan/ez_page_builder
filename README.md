@@ -9,8 +9,8 @@ Provides Landing Page Builder with components
 #### Install the project using composer 
 
 ```bash
-composer create-project drupal/recommended-project:^10.0 ezpagebuilder
-cd ezpagebuilder;
+composer create-project drupal/recommended-project:^10.0 pagebuilderez
+cd pagebuilderez;
 composer config repositories.ezcontent-block vcs https://github.com/abhineshdhiman-srijan/ezcontent-block
 composer config repositories.ezcontent-paragraphs vcs https://github.com/abhineshdhiman-srijan/ezcontent-paragraphs
 composer config repositories.ezcontent-node vcs https://github.com/abhineshdhiman-srijan/ezcontent-node
@@ -28,8 +28,8 @@ composer require drupal_recipe/ez_page_builder:dev-main
 #### ddev setup
 
 ```bash
-composer create-project drupal/recommended-project:^10.0 ezpagebuilder
-cd ezpagebuilder;
+composer create-project drupal/recommended-project:^10.0 pagebuilderez
+cd pagebuilderez;
 ddev config --project-type=drupal9 --docroot=web --create-docroot
 ddev start
 ddev composer config repositories.ezcontent-block vcs https://github.com/abhineshdhiman-srijan/ezcontent-block
