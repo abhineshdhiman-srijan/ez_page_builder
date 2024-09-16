@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.paragraph.preview
     - field.field.paragraph.form.field_title
     - field.field.paragraph.form.field_webform
     - paragraphs.paragraphs_type.form

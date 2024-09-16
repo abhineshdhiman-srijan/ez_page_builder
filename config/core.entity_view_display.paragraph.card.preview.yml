@@ -2,7 +2,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.paragraph.preview
     - field.field.paragraph.card.field_link
     - field.field.paragraph.card.field_media
     - field.field.paragraph.card.field_short_title
