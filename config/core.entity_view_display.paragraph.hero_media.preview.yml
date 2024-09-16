@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.paragraph.preview
     - field.field.paragraph.hero_media.field_card
     - paragraphs.paragraphs_type.hero_media
   module:

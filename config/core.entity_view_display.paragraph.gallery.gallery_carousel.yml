@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.paragraph.gallery_carousel
     - field.field.paragraph.gallery.field_body
     - field.field.paragraph.gallery.field_link
     - field.field.paragraph.gallery.field_media_items

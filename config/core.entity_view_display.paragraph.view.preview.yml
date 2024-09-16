@@ -2,6 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.paragraph.preview
     - field.field.paragraph.view.field_title
     - field.field.paragraph.view.field_view_ref
     - paragraphs.paragraphs_type.view
